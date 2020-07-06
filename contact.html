@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Caravaggio's Bio</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Cinzel Decorative' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <div class="top">
+                <nav>
+
+                    <h1 class="namecaravaggio">Caravaggio</h1>
+                    <ul class="navbar">
+                        <li><a class="itemmenu" href="index.html">Home</a></li>
+                        <li><a class="itemmenu" href="biography.html">Biography</a></li>
+                        <li><a class="itemmenu" href="contact.html">Contact</a></li>
+                        <li><a class="itemmenu" href="videos.html">Videos</a></li>
+                        <li><a class="itemmenu" href="works.html">Works</a></li>
+                    </ul>
+                    <hr>
+            </div>
+            </nav>
+        </header>
+
+
+        <main>
+
+            <div id="contactbody">
+                <h1 class="bigtitle">Contact</h1>
+                <p class="normaltext">Don't hesitate to contact us - we would love to hear from you. Please note that we
+                    do
+                    not do appraisals.
+                    We are only able to answer questions which relate to this website; any other questions will be left
+                    unanswered.</p>
+                <br>
+
+                <form name="museumcontact" method="POST" data-netlify="true">
+                    <p>
+                        <label class="normaltext"><b>Name</b> <input type="text" name="name"
+                                placeholder="Name and surname" /></label>
+                    </p>
+                    <p>
+                        <label class="normaltext"> <b>Email:</b> <input type=" email" name="email"
+                                placeholder="example@example.com" /></label>
+                    </p>
+                    <p>
+                        <label class="normaltext"><b>Are you?:</b> <select name="role[]" multiple>
+                                <option value="Studen">Student</option>
+                                <option value="Adult">Adult</option>
+
+                                <option value="underage">Underage</option>
+                            </select></label>
+                    </p>
+                    <p>
+                        <label class="normaltext"><b>Your Question</b> <textarea name="vraag" cols="auto"
+                                rows="2"></textarea></label>
+                    </p>
+                    <p>
+                        <button class="input" type="submit"><b>Send</b></button>
+                    </p>
+                </form>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="bottom">
+
+                <p class="copyright">© 2020 Stefan Rossi</h3>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

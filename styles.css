@@ -1,0 +1,207 @@
+ul.navbar li{
+    display: inline;
+   text-align: right;
+    padding: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  
+}
+#wrap { 
+	max-width: 1024px;
+    margin: 0 auto; 
+    
+}
+body{
+    
+    margin: auto ;
+ background-color: beige;
+    align-self: center;
+   
+}
+.bottom{
+    background-color: black;
+    padding: 2%;
+    
+}
+.itemmenu{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+   
+}
+.itemmenu:hover{
+    color: grey;
+}
+
+
+.copyright{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.normaltext{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.7;
+}
+.top{
+    background-color: black;
+    padding:5%;
+    max-width: 1024px
+   
+}
+#indexbody{
+  
+    margin: 2%;
+    padding: 2%;
+border-radius: 2%;
+max-width: 1200px
+
+}
+.imagecaravaggio{
+    max-height: 400px;
+    width:auto ;
+}
+.namecaravaggio{
+    color: white;
+    font-family: 'Satisfy' ;font-size: 50px;
+    text-align: right;
+}
+.boldtext{
+    font-size: 20px;
+}
+#subtitle{
+    font-family: 'Satisfy';font-size: 22px;
+    color: white;
+    text-align: right;
+}
+.titlesparagraph{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+
+.bigtitle{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+  
+   
+}
+#contactbody{
+    max-width: 1024px;
+    margin: 2%;
+padding: 2%;
+
+}
+#worksbody{
+    max-width: 1024px;
+    margin: 2%;
+padding: 2%;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+    
+}
+#videobody{
+margin: 5%;
+
+}
+.bigtitleworks{
+    margin-left: 5%;
+    margin-top: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+}
+
+  
+
+    #biographybody {
+          max-width: 1024px;
+          margin: 2%;
+    padding: 2%;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto;
+        grid-column-gap: 30px;
+        grid-row-gap: 0px;
+      
+        
+        }
+        
+        .image1 { grid-area: 1 / 1 / 2 / 2; }
+        .bio1 { grid-area: 1 / 2 / 2 / 3; }
+        .image2 { grid-area: 2 / 1 / 3 / 2; }
+        .bio2 { grid-area: 2 / 2 / 3 / 3; }
+        .image3 { grid-area: 3 / 1 / 4 / 2; }
+        .bio3 { grid-area: 3 / 2 / 4 / 3; }
+        .image4 { grid-area: 4 / 1 / 5 / 2; }
+        .bio4 { grid-area: 4 / 2 / 5 / 3; }
+        .image5 { grid-area: 5 / 1 / 6 / 2; }
+.bio5 { grid-area: 5 / 2 / 6 / 3; }
+
+.imagesbio{
+width: 100%;
+margin-top: 20px;
+
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 750px ){
+
+    .imagesbio{
+        height: 150px;
+        width: auto;
+    }
+    .normaltext{
+        line-height: 1.5;
+        font-size: 15px;
+    }
+    #biographybody{
+        grid-template-columns:1fr;
+        grid-template-rows: auto;
+    }
+    .image1 { grid-area: 1 / 1 / 2 / 2; }
+.bio1 { grid-area: 2 / 1 / 3 / 2; }
+.image2 { grid-area: 3 / 1 / 4 / 2; }
+.bio2 { grid-area: 4 / 1 / 5 / 2; }
+.image3 { grid-area: 5 / 1 / 6 / 2; }
+.bio3 { grid-area: 6 / 1 / 7 / 2; }
+.image4 { grid-area: 7 / 1 / 8 / 2; }
+.bio4 { grid-area: 8 / 1 / 9 / 2; }
+.image5 { grid-area: 9 / 1 / 10 / 2; }
+.bio5 { grid-area: 10 / 1 / 11 / 2; }
+
+#worksbody{
+    max-width: 1024px;
+    margin: 2%;
+padding: 2%;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    
+}
+ul.navbar li{
+    padding: 1%;
+    text-align: center;
+}
+.itemmenu{
+    font-size: 15px;
+}
+.bigtitle{
+    font-size: 25px;
+}
+.bigtitleworks{
+    font-size:25px ;
+}
+.imagecaravaggio{
+   height: 200px;
+   width: auto;
+}
+
+
+}
+
